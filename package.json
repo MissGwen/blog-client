@@ -39,9 +39,6 @@
     "typescript": "^5.4.3"
   },
   "lint-staged": {
-    "*": [
-      "eslint --fix",
-      "prettier --write ."
-    ]
+    "*": "prettier --write ."
   }
 }
