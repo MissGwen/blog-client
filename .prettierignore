@@ -1,10 +1,3 @@
-# pnpm
-pnpm-lock.yaml
-
-# prisma
 /prisma
-
-.husky
-
-.eslintignore
-
+/.husky
+pnpm-lock.yaml
