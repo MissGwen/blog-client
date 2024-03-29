@@ -3,3 +3,8 @@ pnpm-lock.yaml
 
 # prisma
 /prisma
+
+.husky
+
+.eslintignore
+
