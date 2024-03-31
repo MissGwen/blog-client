@@ -15,15 +15,17 @@ datasource db {
 
 // 文章
 model Article {
-  id Int @id @default(autoincrement())
+  id          Int      @id @default(autoincrement())
   // 创建时间
   create_time DateTime @default(now())
   // 更新时间
   update_time DateTime
   // 文章标题
-  title String
+  title       String
   // 文章内容
-  content String @db.LongText
+  content     String   @db.LongText
   // 简介
-  intro String
+  intro       String
+  // 是否展示
+  is_show     Boolean
 }
